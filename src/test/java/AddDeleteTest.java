@@ -12,6 +12,6 @@ public class AddDeleteTest extends BaseTest{
         driver.findElement(By.xpath("//button[text()='Delete']")).click();
 
         assertEquals(driver.findElements(By.xpath("//button[text()='Delete']")).size(), 1);
-    }
+      }
     }
 

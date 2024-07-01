@@ -22,6 +22,5 @@ public class InputTest extends BaseTest {
         assertEquals(numberInput.getAttribute("value"), "2", "Not correct");
         numberInput.sendKeys(Keys.ARROW_DOWN);
         assertEquals(numberInput.getAttribute("value"), "1", "Not correct");
-
     }
 }
